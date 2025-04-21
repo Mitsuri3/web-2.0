@@ -293,3 +293,59 @@
         
     }
 }
+
+@media (max-width: 481px) {
+
+    .header{
+        max-height: 66px;
+    }
+
+    .brand-info-text-style {
+
+        font-size: 14px;
+    }
+    
+    .studio-name-style{
+
+        font-size: 14px;
+    }
+
+    .header-text1{
+        margin-left: 30px;
+        width: 140px;
+    }
+
+    .header-text2{
+        display: none;
+        margin-left: 30px;
+        width: 100px;
+    }
+
+    .header__menu{
+        margin-top: 1px;
+        margin-left: 30px;
+    }
+
+    .header__menu_button{
+        width: 65px;
+        height: 65px;
+    }
+
+    .header__content_right{
+        margin-left: 25px;
+        
+    }
+
+    .header__contact_button{
+        margin-left: 10px;
+    }
+
+    .button {
+        height: 35px;
+        padding: 12px 12px;
+        padding-right: 12px;
+        padding-left: 12px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
