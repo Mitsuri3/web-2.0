@@ -282,5 +282,47 @@
     }
 }
 
+@media (max-width: 481px) {
+
+    .experiences-text-block{
+        margin-left: 0px;
+    }
+    
+    .experiences-text{
+        font-size: 58px;
+        text-align: center;
+    }
+
+    .experiences-block{
+        margin-top: 61px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .block2, .block3{
+        margin-left: 0px;
+    }
+
+    .testimonials-block{
+        margin-top: 110px;
+    }
+    
+    .testimonials-title-block{
+        margin-left: 80px;
+    }
+    
+    .testimonials-title{
+        font-size: 58px;
+    }
+    
+    .testimonials-block2{
+        margin-top: 72px;
+        margin-left: -45px;
+        
+    }
+}
+
 
 
