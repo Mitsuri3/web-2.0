@@ -148,3 +148,32 @@
         margin-left: 95px;
     }
 }
+
+@media (max-width: 481px) {
+
+    .blog{
+        margin-top: 0px;
+        align-items: center;
+    }
+    .blog-title-text{
+        font-size: 58px;
+    }
+    
+    .blog-images-block{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        margin-top: 30px;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .blokk{
+        margin-left: 0px;
+    }
+
+    .blog-text1, .blog-text2{
+        font-size: 29px;
+    }
+}
