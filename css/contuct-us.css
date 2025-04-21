@@ -311,54 +311,17 @@
     
     .contuct-us-info{
         margin-top: 10px;
-        margin-left: 370px;
+        margin-left: 47px;
         max-width: 450px;
         max-height: 525px;
     }
 
-    .contuct-us-title-text{
-        font-size: 58px;
-    }
-
-    .contuct-us-info-name{
-        margin-top: 10px;
-        width: 350px;
-    }
-    
-    .name-text-contuct::placeholder{
-        font-size: 18px;
-    }
-    
-    .contuct-us-info-mail{
-        margin-top: 20px;
-        width: 350px;
-    }
-    
-    .mail-text-contuct::placeholder{
-        font-size: 18px;
-    }
-    
-    .contuct-us-info-url{
-        width: 350px;
-    
-    }
-    
-    .url-text-contuct::placeholder{
-        font-size: 18px;
-    }
-    
-    .contuct-us-info-roject{
-        width: 350px;
-        height: 45px;
-    
-    }
-    
-    .project-text-contuct::placeholder{
-        font-size: 18px;
-    }
-    
     .btn3, a.btn3 {
-        margin-top: 20px;
-        font-weight: 400;
+        height: 35px;
+        padding: 12px 12px;
+        padding-right: 12px;
+        padding-left: 12px;
+        font-size: 14px;
+        line-height: 14px;
     }
 }
