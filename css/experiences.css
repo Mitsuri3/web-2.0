@@ -310,7 +310,7 @@
     }
     
     .testimonials-title-block{
-        margin-left: 80px;
+        margin-left: 0px;
     }
     
     .testimonials-title{
@@ -318,9 +318,53 @@
     }
     
     .testimonials-block2{
-        margin-top: 72px;
-        margin-left: -45px;
+        margin-top: 40px;
+        margin-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         
+    }
+
+    .testimonials-block2-img{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .testimonials-block-for-text{
+        margin-top: 29px;
+        margin-left: 0px;
+        max-width: 460px;
+        max-height: 66px;
+    }
+    
+    .testimonials-text{
+        font-size: 24px;
+    }
+    
+    .name{
+        font-size: 14px;
+    }
+    
+    .customer{
+        font-size: 14px;
+        }
+    
+    
+    .block-for-name{
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    
+    .block-for-customer{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    
+    .block-for-cubes{
+        margin-top: 14px;
+        margin-left: 0px;
+    
     }
 }
 
