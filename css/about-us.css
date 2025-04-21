@@ -409,3 +409,118 @@
         font-size: 82px;
     }
 }
+
+@media (max-width: 481px) {
+    .about-us-images{
+        height: 830px;
+        flex-direction: column;
+    }
+    
+    .about-us-images1{
+        margin-left: 0px;
+        max-width: 400px;
+
+    }
+
+    .about-us-images2{
+        top: 45%;
+        left: 50%;
+    }
+
+    .about-us-images3{
+        margin-top: 0px;
+        margin-right: 0px;
+        max-width: 500px;
+    }
+
+    .about-us-text{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .text-about-us1{
+        margin-left: 65px;
+    }
+
+    .txt0{
+        font-size: 58px;
+        line-height: 64px;
+    }
+
+    .text-about-us2{
+        padding-top: 30px;
+        padding-left: 0px;
+        max-width: 430px;
+    }
+
+    .p1{
+        font-size: 18px;
+    }
+
+    .txt1{
+        min-width: 330px;
+        min-height: 72px;
+    }
+
+    .txt2{
+        margin-top: 20px;
+        min-width: 330px;
+        min-height: 120px;
+    }
+
+    .p2{
+        font-size: 18px;
+    }
+
+    .botn{
+        margin-top: 0px;
+        height: 35px;
+        padding: 12px 12px;
+        padding-right: 12px;
+        padding-left: 12px;
+        font-size: 12px;
+        line-height: 14px;
+
+    }
+
+    .about-us-companies{
+        margin-top: 120px;
+    }
+
+    .teams-and-companies{
+        margin-left: 15px;
+    }
+
+    
+    .companies-logo{
+        margin-top: 40px;
+        margin-left: 12px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 равных столбца */
+        grid-template-rows: repeat(3, auto); /* 2 строки */
+        gap: 20px;
+        width: 100%;
+        max-width: 450px;
+        }
+
+
+    .our-work{
+        margin-top: 32px;
+        margin-left: 180px;
+    }
+    
+    .our-work-line{
+        margin-left: 180px;
+    }
+
+    .about-us-our-works{
+        margin-left: 70px;
+        margin-top: 90px;
+        width: 300px;
+        height: 70px;
+    }
+
+    .about-us-our-works-txt{
+        font-size: 58px;
+    }
+}

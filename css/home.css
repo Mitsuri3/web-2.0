@@ -307,7 +307,7 @@
 @media (max-width: 481px) {
 
     .home{
-        max-height: 450px;
+        max-height: 420px;
         max-width: 480px;
         width: 100%;  
     }
