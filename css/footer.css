@@ -234,57 +234,70 @@
 }
 
 @media (max-width: 481px) {
+
+    .footer{
+        padding-bottom: 30px;
+    
+    }
     .footer-logos-block{
         display: flex;
     }
     
     .fooret-logo{
-        max-width: 393px;
+        max-width: 380px;
         max-height: 153.17px;
     }
     
     .block-for-footer-text{
         margin-top: 30px;
-        max-width: 388px;
+        max-width: 270px;
         max-height: 48px;
     }
     
     .footer-text{
-        font-size: 16px;
+        font-size: 14px;
     }
     
-    .footer-navigation-block{
-        margin-top: 29px;
-        display: flex;
-        align-items: center;
+    .footer-navigation-block {
+        margin-top: 30px;
+        width: 270px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(min-content, 1fr));
+        
     }
 
-    .link-item{
+    .link-item {
         font-size: 12px;
+        white-space: nowrap;
     }
 
     
-    .link-item:first-child { margin-left: 0px; }
-    .link-item:nth-child(2) { margin-left: 13px; }
-    .link-item:nth-child(3) { margin-left: 19px; }
-    .link-item:nth-child(4) { margin-left: 20px; }
-    .link-item:nth-child(5) { margin-left: 18px; }
+    .link-item:nth-child(1) { margin-right: 0px; }  
+    .link-item:nth-child(2) { margin-left: -30px;}    
+    .link-item:nth-child(3) { margin-left: -60px; } 
+    .link-item:nth-child(4) { margin-top: 10px; margin-left: 0px; }  
+    .link-item:nth-child(5) { margin-top: 10px; margin-left: 0px; }
     
 
     
     .footer-social-logos-block{
-        margin-left: 50px;
+        margin-left: 30px;
+        width: 150px;
     }
     
     
     .footer-social-logos{
         display: flex;
-        align-items: center;
+        text-align: center;
+        
+        flex-direction: column;
+        gap: 15px;
     
     }
     
     .footer-inst{
-        margin-left: 2px;
+        margin-top: -10px;
+        margin-left: 15px;
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
@@ -305,21 +318,23 @@
     }
     
     .footer-mail-block{
-        margin-left: 0px;
+        margin-right: 15px;
         margin-top: 32px;
     }
     
     .footer-mail-text{
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .footer-phone-block{
         margin-left: 0px;
+        padding-right: 15px;
         margin-top: 13px;
+        white-space: nowrap;
     }
     
     .footer-phone-text{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 20.4px;
         letter-spacing: 1px;
