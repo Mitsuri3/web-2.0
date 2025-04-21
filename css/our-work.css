@@ -171,3 +171,18 @@
     }
 
 }
+
+@media (max-width: 481px) {
+
+    .our-work-img1{
+        width: 480px;
+    }
+    .our-work-img3{
+        width: 480px;
+    }
+
+    .txt-section{
+        max-width: 480px;
+    }
+
+}
