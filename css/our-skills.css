@@ -269,3 +269,65 @@
         font-size: 75px;
     }
 }
+
+@media (max-width:481px) {
+
+    .our-skills{
+        margin-top: 120px;
+        align-items: center;
+    }
+    .our-skills-image{
+        display: none;
+    }
+
+    .block-our-skills{
+        margin-left: 0px;
+    
+    }
+    
+    
+    .our-skills-title-block{
+        margin-top: 20px;
+        margin-left: 45px;
+        
+    }
+    
+    .our-skills-title{
+        font-size: 58px;
+        text-align: center;
+    }
+
+    .block-skills-percents{
+        margin-top: 30px;
+        padding-left: 30px;
+        max-width: 460px;
+    }
+    
+    .Graphic-Design-percents-block{
+        margin-right: 0px;
+    }
+    
+    .graphic-design-line{
+        width: 80%;
+    }
+    
+    .Lead-Generation-percents-block{
+        margin-right: 0px;
+    }
+    
+    .Lead-Generation-line{
+        width: 41%;
+    }
+    
+    .Photoshop-percents-block{
+        margin-right: 0px;
+    }
+    
+    .Photoshop-line{
+        width: 70%;
+    }
+    
+    .Illustration-line{
+        width: 100%;
+    }
+}
