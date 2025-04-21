@@ -197,3 +197,26 @@
         margin-right: -200px;
     }
 }
+
+@media (max-width: 481px) {
+    .bigtitle-block{
+        height: 110px;
+        white-space: nowrap;
+    }
+
+    .t1, .t3, .t5{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .t2, .t4 {
+        width: 20px;
+        height: 2px;
+        background: rgb(255, 255, 255, 0.8);
+        flex-shrink: 0; 
+    }
+    
+    .bigtext-last{
+        margin-right: -200px;
+    }
+}
