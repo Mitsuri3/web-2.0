@@ -524,3 +524,126 @@
         font-size: 58px;
     }
 }
+
+@media (max-width: 321px) {
+
+    .about-us{
+        padding-top: 0px;
+    }
+
+    .about-us-images{
+        height: 700px;
+        flex-direction: column;
+    }
+    
+    .about-us-images1{
+        margin-left: 0px;
+        max-width: 320px;
+
+    }
+
+    .about-us-images2{
+        max-width: 100px;
+        top: 43%;
+        left: 50%;
+    }
+
+    .about-us-images3{
+        margin-right: 0px;
+        max-width: 320px;
+    }
+
+    .about-us-text{
+        flex-direction: column;
+        padding-top: 0px;
+        margin-left: -15px;
+    }
+
+    .text-about-us1{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .txt0{
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .text-about-us2{
+        padding-top: 30px;
+        padding-left: 0px;
+        max-width: 270px;
+    }
+
+    .p1{
+        font-size: 14px;
+    }
+
+    .txt1{
+        min-width: 270px;
+        min-height: 72px;
+    }
+
+    .txt2{
+        margin-top: 20px;
+        min-width: 270px;
+        min-height: 120px;
+    }
+
+    .p2{
+        font-size: 14px;
+    }
+
+    .botn{
+        margin-top: 20px;
+        height: 35px;
+        padding: 12px 12px;
+        padding-right: 12px;
+        padding-left: 12px;
+        font-size: 12px;
+        line-height: 14px;
+
+    }
+
+    .about-us-companies{
+        margin-top: 120px;
+    }
+
+    .teams-and-companies{
+        margin-left: 5px;
+    }
+
+    
+    .companies-logo{
+        margin-top: 80px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 равных столбца */
+        grid-template-rows: repeat(3, auto); /* 2 строки */
+        gap: 20px;
+        width: 100%;
+        max-width: 450px;
+        }
+
+
+    .our-work{
+        margin-top: 32px;
+        margin-left: 85px;
+    }
+    
+    .our-work-line{
+        margin-left: 85px;
+    }
+
+    .about-us-our-works{
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 70px;
+        width: 300px;
+        height: 70px;
+    }
+
+    .about-us-our-works-txt{
+        font-size: 48px;
+    }
+}
