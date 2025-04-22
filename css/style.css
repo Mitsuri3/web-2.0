@@ -71,3 +71,13 @@ body {
         max-width: 480px;
     }
 }
+
+@media (max-width: 321px) {
+    .body{
+        max-width: 320px;
+    }
+
+    .main{
+        max-width: 320px;
+    }
+}

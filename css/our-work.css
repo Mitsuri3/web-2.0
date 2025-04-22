@@ -175,14 +175,14 @@
 @media (max-width: 481px) {
 
     .our-work-img1{
-        width: 480px;
+        width: 450px;
     }
     .our-work-img3{
-        width: 480px;
+        width: 450px;
     }
 
     .txt-section{
-        max-width: 480px;
+        max-width: 450px;
     }
 
 }
