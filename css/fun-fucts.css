@@ -362,3 +362,64 @@
         margin: 0;
     }
 }
+
+@media (max-width: 321px) {
+    .fun-facts {
+        padding-top: 100px;
+    }
+
+    .fun-facts-title-text {
+        font-size: 48px;
+    }
+    
+    .fun-facts-icons-block {
+        margin-top: 51px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px; 
+        padding: 0 20px; 
+    }
+    
+    .fun-facts-icons-block1,
+    .fun-facts-icons-block3,
+    .fun-facts-icons-block4 {
+        margin-left: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fun-facts-icons-block1-image,
+    .fun-facts-icons-block2-image,
+    .fun-facts-icons-block4-image {
+        margin: 0;
+        
+    }
+    
+    .fun-facts-icons-block1-text {
+        text-align: center;
+    }
+    
+    .bk1, .bk2, .bk3, .bk4, .bk5, .bk6, .bk7, .bk8 {
+        margin: 0; 
+        margin-top: -10px;
+    }
+
+    .bk5{
+        margin-top: -15px;
+    }
+    
+    .fun-facts-icons-block1-text1,
+    .fun-facts-icons-block2-text1,
+    .fun-facts-icons-block1-text3,
+    .fun-facts-icons-block1-text4 {
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .fun-facts-icons-block1-text2 {
+        margin: 0;
+        font-size: 14px;
+    }
+}
