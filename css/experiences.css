@@ -373,4 +373,50 @@
 }
 
 
+@media (max-width: 321px) {
+    .experiences{
+        margin-top: 100px;
+    }
+    
+    .experiences-text{
+        font-size: 44px;
+        text-align: center;
+        line-height: 54px;
+    }
+
+    .testimonials-block{
+        margin-top: 100px;
+    }
+    
+    .testimonials-title-block{
+        margin-left: 0px;
+    }
+    
+    .testimonials-title{
+        font-size: 40px;
+    }
+    
+    .testimonials-block2{
+        margin-top: 20px;
+        
+    }
+    
+    .testimonials-text{
+        font-size: 24px;
+    }
+    
+    .name{
+        font-size: 14px;
+    }
+    
+    .customer{
+        font-size: 14px;
+        }
+    
+    
+    .block-for-name{
+        margin-top: 80px;
+    }
+}
+
 
