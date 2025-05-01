@@ -177,3 +177,35 @@
         font-size: 29px;
     }
 }
+
+@media (max-width: 321px) {
+
+    .blog{
+        margin-top: 0px;
+        align-items: center;
+    }
+    .blog-title-text{
+        font-size: 48px;
+    }
+    
+    .blog-images-block{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        margin-top: 20px;
+        width: 290px;
+        height: auto;
+    }
+
+
+
+    .blokk{
+        margin-left: 0px;
+    }
+
+    .blog-text1, .blog-text2{
+        font-size: 29px;
+    }
+}
