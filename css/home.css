@@ -368,33 +368,33 @@
 @media (max-width: 321px) {
 
     .home{
-        max-height: 350px;
-        max-width: 320px;
+        max-height: 320px;
+        max-width: 310px;
         width: 100%;  
     }
 
     .container1{
         margin-left: 0px;
-        max-width: 320px;
+        max-width: 310px;
     
     }
 
     .home-content{
         margin-top: 50px;
         margin-left: 0px;
-        width: 310px;
+        width: 290px;
         gap: 0px;
     }
 
     .home-heading0{
 
         margin-left: 0px;
-        font-size: 52px;
+        font-size: 48px;
     }
 
     .home-heading{
 
-        font-size: 52px;
+        font-size: 48px;
     }
 
 
